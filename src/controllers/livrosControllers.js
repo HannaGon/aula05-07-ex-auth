@@ -1,4 +1,3 @@
-const mongoose = require("mongoose")
 const livroSchema = require("../models/livroSchema")
 
 const exibeTodos = async(req,res)=>{
