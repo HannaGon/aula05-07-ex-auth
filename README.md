@@ -8,3 +8,7 @@ Exercício de autenticação em API CRUD com mongoDB
 
  # Não esqueça de instalar as dependências
  # com npm i
+
+ # A SECRET pode ser qualquer string, mas por padrão utilizamos uma string convertida para base64, na linha de comando, digitamos echo -n 'string' |base64
+ # exemplo: echo -n 'stringteste' |base64
+ # retorna "c3RyaW5ndGVzdGU=", que pode ser nossa secret 
