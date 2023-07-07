@@ -2,10 +2,10 @@ const express = require("express");
 const router = express.Router();
 
 const livrosController = require("../controllers/livrosControllers")
-// const userController = require("../controllers/userControllers");
-// const authController = require("../controllers/authControllers");
+const userController = require("../controllers/userControllers");
+const authController = require("../controllers/authControllers");
 
-// const { checkAuth } = require("../middlewares/auth");
+const { checkAuth } = require("../middlewares/auth");
 
 //rotas comuns
 router.get("/lista", livrosController.exibeTodos)
